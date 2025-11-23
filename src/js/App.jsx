@@ -17,6 +17,7 @@ function App() {
     "https://images.unsplash.com/photo-1760312205920-f18ebba84181?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=774";
   const imageUrl4 =
     "https://images.unsplash.com/photo-1760043729063-26b2fefd9b08?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=766";
+  
   const description1 = "Texto de Ejemplonúmero 1";
   const description2 = "Texto ejemplo número dos";
   const description3 = "Texto ejemplo número tres";
@@ -25,9 +26,10 @@ function App() {
   return (
     <div>
       <NavBar />
-      <div className="container">
+      <main className="container mt-4">
         <CardTitle />
-        <div className="container mt-5">
+
+        <div className="container mt-5 mb-5">
           <div className="row justify-content-center gap-5">
             <Card imageUrl={imageUrl1} description={description1} />
             <Card imageUrl={imageUrl2} description={description2} />
@@ -35,7 +37,7 @@ function App() {
             <Card imageUrl={imageUrl4} description={description4} />
           </div>
         </div>
-      </div>
+      </main>
       <Footer />
     </div>
   );

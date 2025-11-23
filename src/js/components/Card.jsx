@@ -7,7 +7,7 @@ export const Card = (props) => {
       <div className="card-body">
         <p className="card-text">{props.description}</p>
       </div>
-      <div class="card-footer text-body-secondary text-center">
+      <div className="card-footer text-body-secondary text-center">
         Find Out More!
       </div>
     </div>
