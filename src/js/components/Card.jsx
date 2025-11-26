@@ -7,9 +7,11 @@ export const Card = (props) => {
       <div className="card-body">
         <p className="card-text">{props.description}</p>
       </div>
-      <div className="card-footer text-body-secondary text-center">
-        Find Out More!
-      </div>
+      <div className="card-footer text-center">
+  <button className="btn btn-primary">
+    Find Out More!
+  </button>
+</div>
     </div>
   );
 };
